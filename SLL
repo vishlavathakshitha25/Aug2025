@@ -1,0 +1,4 @@
+class node:
+  def__inti__(self,val):
+     self.data=val
+     self.next=none
