@@ -1,0 +1,15 @@
+class node:
+   def__init__(self,val):
+      self.data=val
+      self.next=none
+def create sll(arr):
+    head=none
+    for val in arr:
+    if (head==none):
+        head=node(val)
+        temp=head
+    else:
+       temp.next=node(val)
+       temp=temp.next
+   arr=[1,2,3]
+print(create sll (arr))
